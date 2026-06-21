@@ -1,0 +1,415 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Photography Master Course - ₹299</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b1020;
+color:#fff;
+overflow-x:hidden;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,.35);
+backdrop-filter:blur(10px);
+padding:15px 0;
+z-index:999;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+background:linear-gradient(90deg,#00e5ff,#7c4dff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+color:#fff;
+background:linear-gradient(90deg,#00e5ff,#7c4dff);
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+.hero{
+padding:140px 0 80px;
+text-align:center;
+position:relative;
+}
+
+.hero h1{
+font-size:58px;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.gradient{
+background:linear-gradient(90deg,#00e5ff,#7c4dff,#ff4081);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:20px;
+color:#cbd5e1;
+}
+
+.price{
+font-size:65px;
+font-weight:bold;
+color:#22c55e;
+margin:25px 0;
+}
+
+.badge{
+display:inline-block;
+padding:10px 20px;
+border-radius:50px;
+background:rgba(255,255,255,.08);
+margin-bottom:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+section{
+padding:80px 0;
+}
+
+.card{
+background:rgba(255,255,255,.05);
+padding:25px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+}
+
+.pricing{
+text-align:center;
+background:rgba(255,255,255,.05);
+padding:50px;
+border-radius:25px;
+}
+
+.old{
+text-decoration:line-through;
+font-size:30px;
+color:#94a3b8;
+}
+
+.new{
+font-size:70px;
+font-weight:bold;
+color:#22c55e;
+}
+
+.faq-item{
+background:rgba(255,255,255,.05);
+margin-bottom:15px;
+border-radius:12px;
+overflow:hidden;
+}
+
+.faq-q{
+padding:18px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.faq-a{
+max-height:0;
+overflow:hidden;
+transition:.4s;
+padding:0 18px;
+color:#cbd5e1;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#94a3b8;
+}
+
+.glow{
+position:absolute;
+width:300px;
+height:300px;
+background:#7c4dff;
+filter:blur(120px);
+opacity:.25;
+z-index:-1;
+}
+
+.g1{top:50px;left:-100px;}
+.g2{right:-100px;bottom:0;background:#00e5ff;}
+
+@media(max-width:768px){
+.hero h1{
+font-size:40px;
+}
+.price{
+font-size:50px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">Mobile Photography Master Course</div>
+<a href="#pricing" class="btn">Enroll Now</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+
+<div class="glow g1"></div>
+<div class="glow g2"></div>
+
+<div class="container">
+
+<div class="badge">
+📸 India's Most Practical Mobile Photography Course
+</div>
+
+<h1>
+Master <span class="gradient">Mobile Photography</span> Like a Pro
+</h1>
+
+<p>
+Learn stunning photography, editing, lighting, composition,
+portrait shots, Instagram content creation and professional mobile photography techniques.
+</p>
+
+<div class="price">₹299</div>
+
+<a href="#pricing" class="btn">Get Instant Access</a>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">What You'll Learn</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>📱 Camera Settings</h3>
+<p>Understand professional mobile camera controls.</p>
+</div>
+
+<div class="card">
+<h3>🎨 Photo Editing</h3>
+<p>Learn editing techniques used by creators.</p>
+</div>
+
+<div class="card">
+<h3>💡 Lighting Mastery</h3>
+<p>Capture stunning shots in any lighting.</p>
+</div>
+
+<div class="card">
+<h3>👤 Portrait Photography</h3>
+<p>Create DSLR-like portrait photos using mobile.</p>
+</div>
+
+<div class="card">
+<h3>📸 Composition</h3>
+<p>Professional framing and storytelling methods.</p>
+</div>
+
+<div class="card">
+<h3>🚀 Instagram Growth</h3>
+<p>Create viral photography content for social media.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Why Students Love This Course</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>⭐ 5000+ Students</h3>
+<p>Trusted by photography enthusiasts.</p>
+</div>
+
+<div class="card">
+<h3>⚡ Beginner Friendly</h3>
+<p>No prior photography experience required.</p>
+</div>
+
+<div class="card">
+<h3>🎓 Lifetime Access</h3>
+<p>Watch lessons anytime, anywhere.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="pricing">
+<div class="container">
+
+<div class="pricing">
+
+<h2>Limited Time Offer</h2>
+
+<div class="old">₹1999</div>
+
+<div class="new">₹299</div>
+
+<p style="margin:15px 0;color:#fbbf24;">
+🔥 85% OFF Today Only
+</p>
+
+<p>
+✔ Lifetime Access<br>
+✔ Beginner Friendly<br>
+✔ Practical Assignments<br>
+✔ Mobile Editing Tutorials<br>
+✔ Certificate Included
+</p>
+
+<br>
+
+<a href="https://superprofile.bio/vp/mobile-photography-course-" class="btn">
+ENROLL NOW
+</a>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">FAQs</h2>
+
+<div class="faq-item">
+<div class="faq-q">Is this course beginner friendly?</div>
+<div class="faq-a">
+<p>Yes. The course starts from basics and progresses step-by-step.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q">Will I get lifetime access?</div>
+<div class="faq-a">
+<p>Yes. One-time payment gives lifetime access.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q">Do I need a DSLR?</div>
+<div class="faq-a">
+<p>No. This course is designed specifically for smartphone users.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section style="text-align:center;">
+<div class="container">
+
+<h2 class="section-title">
+Start Taking Professional Photos Today
+</h2>
+
+<p style="margin-bottom:30px;color:#cbd5e1;">
+Join thousands of students and master mobile photography for just ₹299.
+</p>
+
+<a href="https://superprofile.bio/vp/mobile-photography-course-" class="btn">
+GET INSTANT ACCESS
+</a>
+
+</div>
+</section>
+
+<footer>
+© 2026 Mobile Photography Master Course | All Rights Reserved
+</footer>
+
+<script>
+document.querySelectorAll('.faq-q').forEach(item=>{
+item.addEventListener('click',()=>{
+const ans=item.nextElementSibling;
+ans.style.maxHeight=
+ans.style.maxHeight ? null : ans.scrollHeight+'px';
+});
+});
+</script>
+
+</body>
+</html>
+```
